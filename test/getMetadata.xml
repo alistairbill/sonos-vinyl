@@ -1,0 +1,9 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <getMetadata xmlns="http://www.sonos.com/Services/1.1">
+      <id>root</id>
+      <index>0</index>
+      <count>10</count>
+    </getMetadata>
+  </soap:Body>
+</soap:Envelope>

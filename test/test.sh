@@ -1,0 +1,2 @@
+curl -s -X POST -H "Content-Type: text/xml;charset=UTF-8" -H 'SOAPACTION: "http://www.sonos.com/Services/1.1#getMediaURI"' -d @getMediaURI.xml "http://localhost:8001" | xmllint --format -
+curl -s -X POST -H "Content-Type: text/xml;charset=UTF-8" -H 'SOAPACTION: "http://www.sonos.com/Services/1.1#getMetadata"' -d @getMetadata.xml "http://localhost:8001" | xmllint --format -
